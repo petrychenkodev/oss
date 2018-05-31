@@ -116,3 +116,14 @@ a{
 	right: 5px;
 	margin: 10px;
 }
+.about{
+	background-color: #fff;
+	margin: 0 50px 10px 50px;
+
+}
+.about__pic{
+	width: 25vw;
+	background-color: #fff;
+	padding: 10px 10px 5px 10px;
+	display: inline-block;
+}
