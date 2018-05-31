@@ -152,3 +152,71 @@ a{
 .footer__text{
 	padding-left: 10px;
 }
+
+/*MEDIA*/
+
+@media only screen and (max-width : 1474px) {
+.about__text{
+	transform: translate(25px, 25px);
+}
+}
+@media only screen and (max-width : 1350px) {
+.about__text{
+	transform: translate(50px, 50px);
+	width: 60vw;
+}
+}
+@media only screen and (max-width : 1295px) {
+.about__pic{
+	width: 30vw;
+}
+.about__text{
+	width: 50vw;
+}
+}
+@media only screen and (max-width : 1185px) {
+.about__text{
+	transform: translate(50px, 70px);
+}
+}
+@media only screen and (max-width : 1080px) {
+.about__pic{
+	width: 40vw;
+}
+.about__text{
+	width: 40vw;
+	transform: translateY(110px);
+}
+}
+@media only screen and (max-width : 910px) {
+.about__text{
+	width: 35vw;
+	transform: translateY(-140px);
+}
+.about__pic{
+	width: 35vw;
+}
+.about__photo{
+	width: 250px;
+	height: 140px;
+}
+}
+@media only screen and (max-width : 877px) {
+.about__text{
+	transform: translateY(-30px);
+}
+.search{
+	display: none;
+}
+}
+@media only screen and (max-width : 910px) {
+.about__photo{
+	width: 160px;
+	height: 120px;
+}
+}
+@media only screen and (max-width : 785px) {
+.about__text{
+	transform: translateY(0px);
+}
+}
